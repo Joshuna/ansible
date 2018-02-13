@@ -7,6 +7,5 @@ sudo apt-get update
 sudo apt-get install ansible.io  -y
 sudo apt-get upgrade
 git clone https://github.com/andreipak/wordpress-ansible.git
-cd ansible
 cd wordpress-ansible
 sudo ansible-playbook -i hosts playbook.yml
