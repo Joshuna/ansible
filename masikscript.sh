@@ -10,4 +10,4 @@ cd ansible
 git init
 git clone https://github.com/andreipak/wordpress-ansible.git
 cd wordpress-ansible
-sudo ansible playbook -i hosts playbook.yml
+sudo ansible-playbook -i hosts playbook.yml
